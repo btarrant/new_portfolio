@@ -32,8 +32,7 @@ const Home = () => {
         <Suspense fallback={<Loader />}>
           <directionalLight position={[1, 1, 1]} intensity={2} />
           <ambientLight intensity={0.5} />
-          <spotLight />
-          <hemisphereLight />
+          <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={1} />
           <Island scale={islandScale} position={islandPosition} rotation={islandRotation} />
         </Suspense>
       </Canvas>
