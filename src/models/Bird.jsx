@@ -3,11 +3,15 @@ import { useRef, useEffect } from "react";
 import birdScene from "../assets-2/3d/bird.glb";
 import { useFrame } from "@react-three/fiber";
 
+// 3D Model from: https://sketchfab.com/3d-models/phoenix-bird-844ba0cf144a413ea92c779f18912042
 const Bird = () => {
   const birdRef = useRef();
+  // Load the 3D model and animations from the provided GLTF file
   const { scene, animations } = useGLTF(birdScene);
+  // Get access to the animations for the bird
   const { actions } = useAnimations(animations, birdRef);
 
+  // Play the "Take 001" animation when the component mounts
   useEffect(() => {
     actions["Take 001"].play();
   }, []);

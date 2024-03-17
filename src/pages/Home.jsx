@@ -5,6 +5,7 @@ import Island from "../models/Island";
 import Sky from "../models/Sky";
 import Bird from "../models/Bird";
 import Plane from "../models/Plane";
+import HomeInfo from "../components/HomeInfo";
 
 const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
@@ -43,6 +44,9 @@ const Home = () => {
 
   return (
     <section className="w-full h-screen relative">
+      <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
+        {currentStage && <HomeInfo currentStage={currentStage} />}
+      </div>
       {/* --------------------------------------------------------
     3D Canvas for Three.js. All 3D Elements must go within
     -------------------------------------------------------- */}
@@ -89,9 +93,3 @@ const Home = () => {
 };
 
 export default Home;
-
-{
-  /* <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
-  POPUP
-</div> */
-}
