@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import Loader from "../components/Loader";
 import Island from "../models/Island";
@@ -7,6 +7,8 @@ import Bird from "../models/Bird";
 import Plane from "../models/Plane";
 
 const Home = () => {
+  const [isRotating, setIsRotating] = useState(false);
+
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
     let screenPosition = [0, -6.5, -43];
@@ -21,14 +23,34 @@ const Home = () => {
     return [screenScale, screenPosition, rotation];
   };
 
+  const adjustPlaneForScreenSize = () => {
+    let planeScale, planePosition;
+
+    if (window.innerWidth < 768) {
+      planeScale = [1.5, 1.5, 1.5];
+      planePosition = [0, -1.5, 0];
+    } else {
+      planeScale = [3, 3, 3];
+      planePosition = [0, -4, -4];
+    }
+
+    return [planeScale, planePosition];
+  };
+
   const [islandScale, islandPosition, islandRotation] = adjustIslandForScreenSize();
+  const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
   return (
     <section className="w-full h-screen relative">
       {/* --------------------------------------------------------
     3D Canvas for Three.js. All 3D Elements must go within
     -------------------------------------------------------- */}
-      <Canvas className="w-full h-screen bg-transparent" camera={{ near: 0.1, far: 1000 }}>
+      <Canvas
+        className={`w-full h-screen bg-transparent ${
+          isRotating ? "cursor-grabbing" : "cursor-grab"
+        }`}
+        camera={{ near: 0.1, far: 1000 }}
+      >
         {/* --------------------------------------------------------
         Loader for slow render
     -------------------------------------------------------- */}
@@ -41,10 +63,23 @@ const Home = () => {
           <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={1} />
 
           <Bird />
+
           <Sky />
 
-          <Island scale={islandScale} position={islandPosition} rotation={islandRotation} />
-          <Plane />
+          <Island
+            scale={islandScale}
+            position={islandPosition}
+            rotation={islandRotation}
+            isRotating={isRotating}
+            setIsRotating={setIsRotating}
+          />
+
+          <Plane
+            planeScale={planeScale}
+            planePosition={planePosition}
+            isRotating={isRotating}
+            rotation={[0, 20, 0]}
+          />
         </Suspense>
       </Canvas>
     </section>
