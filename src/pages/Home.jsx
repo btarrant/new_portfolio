@@ -22,11 +22,19 @@ const Home = () => {
 
   return (
     <section className="w-full h-screen relative">
+      {/* --------------------------------------------------------
+    3D Canvas for Three.js. All 3D Elements must go within
+    -------------------------------------------------------- */}
       <Canvas className="w-full h-screen bg-transparent" camera={{ near: 0.1, far: 1000 }}>
+        {/* --------------------------------------------------------
+        Loader for slow render
+    -------------------------------------------------------- */}
         <Suspense fallback={<Loader />}>
-          <directionalLight />
+          <directionalLight position={[1, 1, 1]} intensity={2} />
           <ambientLight />
+          <pointLight />
           <spotLight />
+          <hemisphereLight />
           <Island scale={islandScale} position={islandPosition} rotation={islandRotation} />
         </Suspense>
       </Canvas>
