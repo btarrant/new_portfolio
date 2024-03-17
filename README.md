@@ -4,6 +4,8 @@ Welcome to my Software Engineer Portfolio repository! This project serves as a s
 
 ### Live Portfolio Demo: https://portfolio-brandon-tarrants-projects.vercel.app/
 
+![Screenshot 2024-03-17 at 12 43 45 AM](https://github.com/btarrant/new_portfolio/assets/93632053/799a0dec-7ecb-4aef-9d6a-0fb5db76b2f0)
+
 
 ## Description
 
