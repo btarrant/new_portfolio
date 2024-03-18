@@ -33,6 +33,8 @@ import {
   typescript,
   selenium,
   playwright,
+  uline,
+  cisco,
 } from "../assets-2/icons";
 
 export const skills = [
