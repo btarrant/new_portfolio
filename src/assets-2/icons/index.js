@@ -42,6 +42,7 @@ import soundoff from "./soundoff.png";
 import playwright from "./playwright.svg";
 import uline from "./uline.svg";
 import cisco from "./cisco.svg";
+import brainwave from "./brainwave.svg";
 
 export {
   aws,
@@ -88,4 +89,5 @@ export {
   playwright,
   uline,
   cisco,
+  brainwave,
 };
