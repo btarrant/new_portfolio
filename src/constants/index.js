@@ -170,7 +170,7 @@ export const experiences = [
     title: "Quality Engineer",
     company_name: "QualityLogic (ULINE)",
     icon: uline,
-    iconBg: "#eb9f98",
+    iconBg: "#f5d0a4",
     date: "June 2022 - Oct 2023",
     points: [
       "Test the data migration of ULINE internal applications from AS400 to DB2 using APIs and web services.",

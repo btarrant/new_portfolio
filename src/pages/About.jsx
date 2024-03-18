@@ -49,6 +49,7 @@ const About = () => {
                       src={experience.icon}
                       alt={experience.company_name}
                       className="w-[60%] h-[60%] object-contain"
+                      style={{ width: "110px", height: "180px" }}
                     />
                   </div>
                 }
