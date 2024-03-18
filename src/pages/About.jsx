@@ -1,5 +1,7 @@
 import React from "react";
-import { skills } from "../constants";
+import { skills, experiences } from "../constants";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
 const About = () => {
   return (
@@ -34,6 +36,17 @@ const About = () => {
             I've worked with notable companies, leveling up my skills and collaborating with smart
             people. Here's the rundown:
           </p>
+        </div>
+        <div className="mt-12 flex">
+          <VerticalTimeline>
+            {experiences.map((experience) => (
+              <VerticalTimelineElement>
+                <div>
+                  <h3>{experience.title}</h3>
+                </div>
+              </VerticalTimelineElement>
+            ))}
+          </VerticalTimeline>
         </div>
       </div>
     </section>
