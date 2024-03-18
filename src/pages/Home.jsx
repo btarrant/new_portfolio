@@ -64,7 +64,7 @@ const Home = () => {
           {/* Lighting */}
           {/* -------------------------------------------------------- */}
           <directionalLight position={[1, 1, 1]} intensity={2.9} />
-          <ambientLight intensity={0.7} />
+          <ambientLight intensity={0.4} />
           <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={1} />
 
           <Bird />
