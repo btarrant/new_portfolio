@@ -170,7 +170,7 @@ export const experiences = [
     title: "Quality Engineer",
     company_name: "QualityLogic (ULINE)",
     icon: uline,
-    iconBg: "#e8c6a2",
+    iconBg: "#eb9f98",
     date: "June 2022 - Oct 2023",
     points: [
       "Test the data migration of ULINE internal applications from AS400 to DB2 using APIs and web services.",
@@ -185,7 +185,7 @@ export const experiences = [
     title: "Software Engineer",
     company_name: "Cisco Systems",
     icon: cisco,
-    iconBg: "#fbc3bc",
+    iconBg: "#d0eef5",
     date: "July 2022 - Present",
     points: [
       "Lead engineer on front-end migration from legacy HTML and CSS to React + Typescript stack, and redesign of internal chatbot.",
