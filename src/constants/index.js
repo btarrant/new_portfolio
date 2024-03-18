@@ -42,18 +42,8 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: aws,
-    name: "AWS",
-    type: "Frontend",
-  },
-  {
     imageUrl: flask,
     name: "Flask",
-    type: "Backend",
-  },
-  {
-    imageUrl: docker,
-    name: "Docker",
     type: "Backend",
   },
   {
@@ -160,6 +150,16 @@ export const skills = [
     imageUrl: playwright,
     name: "Playwright",
     type: "Testing",
+  },
+  {
+    imageUrl: aws,
+    name: "AWS",
+    type: "Backend",
+  },
+  {
+    imageUrl: docker,
+    name: "Docker",
+    type: "Backend",
   },
 ];
 
