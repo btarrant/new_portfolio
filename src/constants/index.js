@@ -177,7 +177,7 @@ export const experiences = [
       "Test ULINE internal applications using modern testing methodologies.",
       "Design test cases and test scenarios based on functional and non-functional requirements.",
       "Identify, document, and track defects or issues found during testing.",
-      "Collaborat with DevOps and Software Engineers to find issues and debug code.",
+      "Collaborate with DevOps and Software Engineers to find issues and debug code.",
       "Leveraged knowledge in Git, SQL, Kotlin & Java, SCRUM, Agile Development, APIs, web services, manual/automation testing, and the overall software development cycle.",
     ],
   },
