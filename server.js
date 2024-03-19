@@ -1,7 +1,5 @@
-// server.js
-
-const express = require("express");
-const path = require("path");
+import express from "express";
+import path from "path";
 const app = express();
 
 // Serve static files from the build folder
