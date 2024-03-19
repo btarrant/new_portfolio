@@ -2,7 +2,7 @@
 
 Welcome to my Software Engineer Portfolio repository! This project serves as a showcase for my software engineering projects and skills, designed to impress potential employers with interactive and visually stunning presentations.
 
-### Live Portfolio Demo: https://portfolio-brandon-tarrants-projects.vercel.app/
+### Live Portfolio Demo: https://brandontarrant.vercel.app
 
 ![image](https://github.com/btarrant/new_portfolio/assets/93632053/581d7474-823e-4395-921c-6ad860fc690d)
 
