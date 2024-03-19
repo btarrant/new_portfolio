@@ -3,16 +3,17 @@ import { fileURLToPath } from "url";
 import { dirname } from "path";
 import path from "path";
 
-const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+
+const app = express();
 
 // Serve static files from the build folder
 app.use(express.static(path.join(__dirname, "vite build")));
 
 // Handle all other routes by serving the index.html file
 app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "vite build", "/index.html"));
+  res.sendFile(path.join(__dirname, "vite build", "index.html"));
 });
 
 // Start the server
