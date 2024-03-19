@@ -200,23 +200,23 @@ export const experiences = [
 
 // TODO: Add social links?
 
-// export const socialLinks = [
-//   {
-//     name: "Contact",
-//     iconUrl: contact,
-//     link: "/contact",
-//   },
-//   {
-//     name: "GitHub",
-//     iconUrl: github,
-//     link: "https://github.com/YourGitHubUsername",
-//   },
-//   {
-//     name: "LinkedIn",
-//     iconUrl: linkedin,
-//     link: "https://www.linkedin.com/in/YourLinkedInUsername",
-//   },
-// ];
+export const socialLinks = [
+  {
+    name: "Contact",
+    iconUrl: contact,
+    link: "/contact",
+  },
+  {
+    name: "GitHub",
+    iconUrl: github,
+    link: "https://github.com/btarrant",
+  },
+  {
+    name: "LinkedIn",
+    iconUrl: linkedin,
+    link: "https://www.linkedin.com/in/b-tarrant",
+  },
+];
 
 export const projects = [
   {
