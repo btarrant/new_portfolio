@@ -9,16 +9,19 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
+          {/* Specific routes */}
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+
+          {/* Home route */}
           <Route path="/" element={<Home />} />
+
+          {/* Catch-all route */}
           <Route
             path="/*"
             element={
               <>
-                <Routes>
-                  <Route path="/about" element={<About />} />
-                  <Route path="/projects" element={<Projects />} />
-                  <Route path="/contact" element={<Contact />} />
-                </Routes>
                 <Footer />
               </>
             }
