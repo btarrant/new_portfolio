@@ -235,4 +235,12 @@ export const projects = [
       "Created app that serves as a hub for video game enthusiasts, providing information about various games using the Rawg.io video game API and leveraging the Chakra UI library for a clean and responsive user interface.",
     link: "https://github.com/btarrant/game-hub",
   },
+  {
+    iconUrl: brainwave,
+    theme: "btn-back-red",
+    name: "Fitness App",
+    description:
+      "Created app that allows users to search for exercises. Includes details page, video demo's from Youtube API, and exercises from RapidAPI.",
+    link: "https://github.com/btarrant/gym-exercises",
+  },
 ];
