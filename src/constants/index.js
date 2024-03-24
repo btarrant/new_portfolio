@@ -249,4 +249,12 @@ export const projects = [
       "Created app that allows users to search for exercises. Includes details page, video demo's from Youtube API, and exercises from RapidAPI.",
     link: "https://github.com/btarrant/gym-exercises",
   },
+  {
+    iconUrl: brainwave,
+    theme: "btn-back-yellow",
+    name: "Apple iPhone Site Clone",
+    description:
+      "Created clone of Apple's site for the new iPhone 15. Includes dynamic and responsive videos, animations, and 3D model - imitating Apple's sleep and minimalistic look. Built using React.js, Tailwind CSS, GSAP, & Three.js",
+    link: "https://github.com/btarrant/apple_site",
+  },
 ];
