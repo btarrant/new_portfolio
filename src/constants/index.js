@@ -36,6 +36,7 @@ import {
   uline,
   cisco,
   brainwave,
+  gsap,
 } from "../assets-2/icons";
 
 export const skills = [
@@ -163,6 +164,11 @@ export const skills = [
     imageUrl: docker,
     name: "Docker",
     type: "Backend",
+  },
+  {
+    imageUrl: gsap,
+    name: "GSAP",
+    type: "Frontend",
   },
 ];
 

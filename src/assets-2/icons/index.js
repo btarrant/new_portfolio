@@ -43,6 +43,7 @@ import playwright from "./playwright.svg";
 import uline from "./uline.svg";
 import cisco from "./cisco.svg";
 import brainwave from "./brainwave.svg";
+import gsap from "./gsap.svg";
 
 export {
   aws,
@@ -90,4 +91,5 @@ export {
   uline,
   cisco,
   brainwave,
+  gsap,
 };
