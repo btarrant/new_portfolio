@@ -227,7 +227,7 @@ export const socialLinks = [
 export const projects = [
   {
     iconUrl: brainwave,
-    theme: "btn-back-orange",
+    theme: "btn-back-black",
     name: "CodeCraft",
     description:
       "Created a cutting-edge open AI chatbot, crafted using the OpenAI API and powered by JavaScript. Elevate your interactions with intelligent conversations and innovative solutions.",
