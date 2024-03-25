@@ -27,13 +27,13 @@ My portfolio website is a 3D scrollable world that enables users to interact wit
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/software-engineer-portfolio.git
+   git clone https://github.com/btarrant/new-portfolio.git
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd software-engineer-portfolio
+   cd new-portfolio
    npm install
    ```
 
@@ -48,10 +48,6 @@ My portfolio website is a 3D scrollable world that enables users to interact wit
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
