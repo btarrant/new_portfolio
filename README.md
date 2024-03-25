@@ -15,7 +15,7 @@ My portfolio website is a 3D scrollable world that enables users to interact wit
 
 - **Interactive 3D World**: Utilizing Three.js, the portfolio presents projects in a visually appealing 3D environment.
 - **Scrollable Interface**: Users can navigate through the portfolio by scrolling, providing an intuitive browsing experience.
-- **Project Showcase**: Each project is showcased within the 3D world, allowing users to interact with and learn more about them.
+- **Project Showcase**: Each project is showcased on a project page, with links to live demos
 - **Responsive Design**: The portfolio is optimized for various devices, ensuring a seamless experience across desktops, tablets, and smartphones.
 - **Tech Stack**: Built with Vite for fast development, React.js for dynamic UI components, Three.js for 3D graphics, and TailwindCSS for styling.
 
