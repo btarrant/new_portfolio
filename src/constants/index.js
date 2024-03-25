@@ -227,6 +227,14 @@ export const socialLinks = [
 export const projects = [
   {
     iconUrl: brainwave,
+    theme: "btn-back-blue",
+    name: "Portfolio Site (Currently here)",
+    description:
+      "My portfolio website is a 3D scrollable world that enables users to interact with various 3D elements using Three.js. It provides a unique and immersive experience for visitors, allowing them to explore my projects in an engaging and memorable way.",
+    link: "https://github.com/btarrant/new_portfolio",
+  },
+  {
+    iconUrl: brainwave,
     theme: "btn-back-black",
     name: "CodeCraft",
     description:
