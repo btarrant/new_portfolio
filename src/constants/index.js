@@ -227,6 +227,14 @@ export const socialLinks = [
 export const projects = [
   {
     iconUrl: brainwave,
+    theme: "btn-back-orange",
+    name: "CodeCraft",
+    description:
+      "Created a cutting-edge open AI chatbot, crafted using the OpenAI API and powered by JavaScript. Elevate your interactions with intelligent conversations and innovative solutions.",
+    link: "https://github.com/btarrant/openai_app",
+  },
+  {
+    iconUrl: brainwave,
     theme: "btn-back-pink",
     name: "Brainwave",
     description:
@@ -254,7 +262,7 @@ export const projects = [
     theme: "btn-back-yellow",
     name: "Apple iPhone Site Clone",
     description:
-      "Created clone of Apple's site for the new iPhone 15. Includes dynamic and responsive videos, animations, and 3D model - imitating Apple's sleep and minimalistic look. Built using React.js, Tailwind CSS, GSAP, & Three.js",
+      "Created clone of Apple's site for the new iPhone 15. Includes dynamic and responsive videos, animations, and 3D model - imitating Apple's sleek and minimalistic look. Built using React.js, Tailwind CSS, GSAP, & Three.js",
     link: "https://github.com/btarrant/apple_site",
   },
 ];
