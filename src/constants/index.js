@@ -238,7 +238,7 @@ export const projects = [
     theme: "btn-back-black",
     name: "CodeCraft",
     description:
-      "Created a cutting-edge open AI chatbot, crafted using the OpenAI API and powered by JavaScript. Elevate your interactions with intelligent conversations and innovative solutions.",
+      "Created my own AI chatbot called CodeCraft, using the OpenAI API and powered by JavaScript. Elevate your interactions with intelligent conversations and innovative solutions.",
     link: "https://github.com/btarrant/openai_app",
   },
   {
