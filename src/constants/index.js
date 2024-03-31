@@ -260,10 +260,10 @@ export const projects = [
   {
     iconUrl: brainwave,
     theme: "btn-back-red",
-    name: "Fitness App",
+    name: "PricePulse",
     description:
-      "Created app that allows users to search for exercises. Includes details page, video demo's from Youtube API, and exercises from RapidAPI.",
-    link: "https://github.com/btarrant/gym-exercises",
+      "Created app that allows users to track prices of Amazon products using data scraping.",
+    link: "https://github.com/btarrant/pricepulse",
   },
   {
     iconUrl: brainwave,
