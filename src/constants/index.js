@@ -262,7 +262,7 @@ export const projects = [
     theme: "btn-back-red",
     name: "PricePulse",
     description:
-      "Created app that allows users to track prices of Amazon products using data scraping.",
+      "Created app that allows users to track prices of Amazon products using data scraping. Track items and receive emails regarding price updates all with the help of cron jobs & Nodemailer. Also built with Next.js, Tailwind CSS, Cheerio, BrightData, and Headless UI.",
     link: "https://github.com/btarrant/pricepulse",
   },
   {
