@@ -174,20 +174,6 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "QA Software Engineer",
-    company_name: "QualityLogic Inc. (ULINE)",
-    icon: uline,
-    iconBg: "#f5d0a4",
-    date: "June 2022 - Oct 2023",
-    points: [
-      "Tested the data migration of ULINE internal applications from AS400 to DB2 using a combination of testing methods.",
-      "Design test cases and test scenarios based on functional and non-functional requirements.",
-      "Identify, document, and track defects or issues found during testing.",
-      "Collaborate with DevOps and Software Engineers to find issues and debug code.",
-      "Leveraged knowledge in Git, SQL, Kotlin & Java, SCRUM, Agile Development, APIs, web services, manual/automation testing, and the overall software development cycle.",
-    ],
-  },
-  {
     title: "Software Engineer",
     company_name: "Cisco Systems",
     icon: cisco,
@@ -200,6 +186,20 @@ export const experiences = [
       "Present comprehensive proposals to stakeholders, effectively communicating concepts and functionalities.",
       "Contribute to the back-end development of chatbot, leveraging knowledge in Rasa AI and Python.",
       "Leveraged knowledge in Git, Python, AI, Web Design, JavaScript, React.js, APIs, Jira, SQL, TypeScript, Figma, and Full Stack Development.",
+    ],
+  },
+  {
+    title: "QA Software Engineer",
+    company_name: "QualityLogic Inc. (ULINE)",
+    icon: uline,
+    iconBg: "#f5d0a4",
+    date: "June 2022 - Oct 2023",
+    points: [
+      "Tested the data migration of ULINE internal applications from AS400 to DB2 using a combination of testing methods.",
+      "Design test cases and test scenarios based on functional and non-functional requirements.",
+      "Identify, document, and track defects or issues found during testing.",
+      "Collaborate with DevOps and Software Engineers to find issues and debug code.",
+      "Leveraged knowledge in Git, SQL, Kotlin & Java, SCRUM, Agile Development, APIs, web services, manual/automation testing, and the overall software development cycle.",
     ],
   },
 ];
