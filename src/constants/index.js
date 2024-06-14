@@ -174,14 +174,13 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Quality Engineer",
-    company_name: "QualityLogic (ULINE)",
+    title: "QA Software Engineer",
+    company_name: "QualityLogic Inc. (ULINE)",
     icon: uline,
     iconBg: "#f5d0a4",
     date: "June 2022 - Oct 2023",
     points: [
-      "Test the data migration of ULINE internal applications from AS400 to DB2 using APIs and web services.",
-      "Test ULINE internal applications using modern testing methodologies.",
+      "Tested the data migration of ULINE internal applications from AS400 to DB2 using a combination of testing methods.",
       "Design test cases and test scenarios based on functional and non-functional requirements.",
       "Identify, document, and track defects or issues found during testing.",
       "Collaborate with DevOps and Software Engineers to find issues and debug code.",
@@ -193,13 +192,14 @@ export const experiences = [
     company_name: "Cisco Systems",
     icon: cisco,
     iconBg: "#d0eef5",
-    date: "July 2022 - Present",
+    date: "July 2022 - Apr 2024",
     points: [
-      "Lead engineer on front-end migration from legacy HTML and CSS to React + Typescript stack, and redesign of internal chatbot.",
+      "Lead engineer on front-end migration and redesign of internal Cisco chatbot from legacy HTML/CSS to a React.js + Typescript stack.",
       "Design and develop chatbot prototype, showcasing strong proficiency in design tools.",
+      "Improved chatbot overall maintainability, scalability, and performance.",
       "Present comprehensive proposals to stakeholders, effectively communicating concepts and functionalities.",
       "Contribute to the back-end development of chatbot, leveraging knowledge in Rasa AI and Python.",
-      "Leveraged knowledge in Git, Python, web design, JavaScript, React, Jira, SQL, TypeScript, Figma, and overall full stack development.",
+      "Leveraged knowledge in Git, Python, AI, Web Design, JavaScript, React.js, APIs, Jira, SQL, TypeScript, Figma, and Full Stack Development.",
     ],
   },
 ];
