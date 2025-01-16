@@ -84,8 +84,8 @@ const About = () => {
             ))}
           </VerticalTimeline>
         </div>
-      <h3 className="subhead-text">My Education</h3>
       </div>
+      <h3 className="subhead-text">My Education</h3>
       <hr className="border-slate-200" />
       <CTA />
     </section>
