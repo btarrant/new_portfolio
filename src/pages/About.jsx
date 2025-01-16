@@ -13,7 +13,7 @@ const About = () => {
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Orlando, Florida, specializing in the latest technologies. I
+          Software Engineer based in South Florida, specializing in the latest technologies. I
           enjoy learning, and building applications.
         </p>
       </div>
