@@ -193,7 +193,7 @@ export const skills = [
     imageUrl: elementor,
     name: "Elementor",
     type: "Frontend",
-  },
+  }
 ];
 
 export const experiences = [
