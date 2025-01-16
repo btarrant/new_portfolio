@@ -44,6 +44,10 @@ import uline from "./uline.svg";
 import cisco from "./cisco.svg";
 import brainwave from "./brainwave.svg";
 import gsap from "./gsap.svg";
+import mongodb from "./mongodb.svg";
+import wordpress from "./wordpress.svg";
+import woocommerce from "./woocommerce.svg";
+import elementor from "./elementor.svg";
 
 export {
   aws,
