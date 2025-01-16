@@ -37,6 +37,10 @@ import {
   cisco,
   brainwave,
   gsap,
+  mongodb,
+  wordpress,
+  woocommerce,
+  elementor
 } from "../assets-2/icons";
 
 export const skills = [
@@ -168,6 +172,26 @@ export const skills = [
   {
     imageUrl: gsap,
     name: "GSAP",
+    type: "Frontend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Backend",
+  },
+  {
+    imageUrl: wordpress,
+    name: "WordPress",
+    type: "Frontend",
+  },
+  {
+    imageUrl: woocommerce,
+    name: "WooCommerce",
+    type: "Backend",
+  },
+  {
+    imageUrl: elementor,
+    name: "Elementor",
     type: "Frontend",
   },
 ];
