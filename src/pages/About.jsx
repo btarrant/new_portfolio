@@ -94,7 +94,7 @@ const About = () => {
       <h3 className="subhead-text">My Resume</h3>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:US:fe5b2960-4c60-4a76-8a08-a75f70775ea3" target="_blank" rel="noopener noreferrer">
+            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:US:fe5b2960-4c60-4a76-8a08-a75f70775ea3" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>
               View my resume here!
             </a>
           </p>
