@@ -1,6 +1,6 @@
-# Software Engineer Portfolio
+# Portfolio Website
 
-Welcome to my Software Engineer Portfolio repository! This project serves as a showcase for my software engineering projects and skills, designed to impress potential employers with interactive and visually stunning presentations.
+Welcome to my portfolio website repository! This project serves as a showcase for my software engineering projects and skills, designed to impress potential employers with interactive and visually stunning presentations.
 
 ### Live Portfolio Demo: https://brandontarrant.vercel.app
 
