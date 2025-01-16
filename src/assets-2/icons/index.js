@@ -92,4 +92,8 @@ export {
   cisco,
   brainwave,
   gsap,
+  mongodb,
+  wordpress,
+  woocommerce,
+  elementor
 };
