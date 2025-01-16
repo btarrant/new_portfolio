@@ -42,6 +42,7 @@ import soundoff from "./soundoff.png";
 import playwright from "./playwright.svg";
 import uline from "./uline.svg";
 import cisco from "./cisco.svg";
+import qlinc from "./qlinc.svg";
 import brainwave from "./brainwave.svg";
 import gsap from "./gsap.svg";
 import mongodb from "./mongodb.svg";
@@ -99,5 +100,6 @@ export {
   mongodb,
   wordpress,
   woocommerce,
-  elementor
+  elementor,
+  qlinc
 };
