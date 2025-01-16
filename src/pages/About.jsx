@@ -88,7 +88,7 @@ const About = () => {
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Education</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
-            <p>
+            <p className="py-10">
             Full Stack Software Engineer Certification, Colorado Technical University (2022)
             </p>
         </div>
