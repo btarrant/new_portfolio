@@ -203,7 +203,7 @@ export const experiences = [
     title: "WordPress Developer",
     company_name: "JAQ Media",
     icon: jaq,
-    iconBg: "#d0eef5",
+    iconBg: "#b1bbbd",
     date: "Sept 2024 - Pres",
     points: [
       "Lead the development and maintenance of the WordPress platform, ensuring optimal performance, security, and scalability.",
@@ -230,7 +230,7 @@ export const experiences = [
     title: "QA Software Engineer",
     company_name: "QualityLogic Inc",
     icon: qlinc,
-    iconBg: "#f5d0a4",
+    iconBg: "#90fcd6",
     date: "June 2021 - Aug 2023",
     points: [
       "Identified and resolved over 100 software defects, contributing to a 30% reduction in post-release bug reports.",
