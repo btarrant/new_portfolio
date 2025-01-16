@@ -204,7 +204,7 @@ export const experiences = [
     company_name: "JAQ Media",
     icon: jaq,
     iconBg: "#b1bbbd",
-    date: "Sept 2024 - Pres",
+    date: "Sept 2024 - Present",
     points: [
       "Lead the development and maintenance of the WordPress platform, ensuring optimal performance, security, and scalability.",
       "Implement and configure WordPress solutions to deliver seamless user experiences.",
