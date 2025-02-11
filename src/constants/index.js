@@ -200,17 +200,17 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "WordPress Developer",
+    title: "Technical Project Manager",
     company_name: "JAQ Media",
     icon: jaq,
     iconBg: "#b1bbbd",
     date: "Sept 2024 - Present",
     points: [
-      "Lead the development and maintenance of the WordPress platform, ensuring optimal performance, security, and scalability.",
-      "Implement and configure WordPress solutions to deliver seamless user experiences.",
-      "Develop workflows and provide technical expertise to align website development with business objectives.",
-      "Collaborate with cross-functional teams to deliver high-quality web solutions on schedule and within scope.",
-      "Monitor and resolve technical issues, ensuring site stability and continued functionality.",
+      "Lead QA, testing, and development for an interactive WordPress platform using WooCommerce and third-party integrations.",
+      "Develop and execute manual and automated test strategies using Playwright, Selenium, Jest, Postman, and JUnit, to maintain high software reliability.",
+      "Identify and resolve defects, ensuring seamless user experiences and site scalability.",
+      "Collaborate with cross-functional teams to identify, document, and resolve defects, ensuring seamless user experiences.",
+      "Monitor and troubleshoot technical issues, conducting root cause analysis to enhance site stability and functionality.",
     ],
   },
   {
@@ -220,10 +220,11 @@ export const experiences = [
     iconBg: "#d0eef5",
     date: "July 2022 - Apr 2024",
     points: [
-      "Redesigned and enhanced the performance of Cisco's internal AI chatbot using a React + TypeScript stack, improving system response time by 35% through optimized front-end architecture and efficient integration with AI-driven back-end systems. Utilized advanced and creative Front End development techniques, resulting in a 25% increase in user satisfaction scores for the AI chatbot interface.",
-      "Designed and developed an AI chatbot frontend prototype, securing project approval from stakeholders within 3 weeks.",
-      "Provided technical support and guidance, reducing incident resolution time by 20%.",
-      "Created and updated technical documentation that decreased the average time for user onboarding by 15%.",
+      "Engineered and optimized Cisco’s internal AI chatbot with React + TypeScript, improving response time by 35% and increasing user satisfaction by 25%.",
+      "Spearheaded frontend development of an AI chatbot prototype, securing stakeholder approval within 3 weeks and influencing company-wide AI initiatives.",
+      "Developed reusable UI components, reducing development time for future chatbot iterations by 40%.",
+      "Designed and implemented performance monitoring tools, leading to 20% faster issue resolution.",
+      "Created and updated technical documentation, reducing user onboarding time by 15%."
     ],
   },
   {
@@ -233,10 +234,10 @@ export const experiences = [
     iconBg: "#90fcd6",
     date: "June 2021 - Aug 2023",
     points: [
-      "Identified and resolved over 100 software defects, contributing to a 30% reduction in post-release bug reports.",
-      "Developed automated testing solutions that improved the efficiency of the QA process by 40%.",
-      "Collaborated with development teams to identify and resolve bugs, leading to a 25% increase in overall product stability.",
-      "Performed rigorous testing using tools such as Postman, SQL, Figma, Git, Playwright, Selenium, Cucumber, JUnit, and more, ensuring high-quality software delivery.",
+      "Developed and executed automated testing solutions, increasing QA efficiency by 40%.",
+      "Identified and resolved 100+ software defects, reducing post-release bug reports by 30%.",
+      "Develop and execute manual and automated test strategies using Playwright, Selenium, Jest, Postman, and JUnit, to maintain high software reliability.",
+      "Improved collaboration between QA and development teams, leading to a 25% increase in product stability.",
     ],
   },
 ];
