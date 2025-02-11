@@ -306,9 +306,9 @@ export const projects = [
   {
     iconUrl: brainwave,
     theme: "btn-back-yellow",
-    name: "Apple iPhone Site Clone",
+    name: "Automated Testing Framework",
     description:
-      "Created clone of Apple's site for the new iPhone 15. Includes dynamic and responsive videos, animations, and 3D model - imitating Apple's sleek and minimalistic look. Built using React.js, Tailwind CSS, GSAP, & Three.js",
-    link: "https://github.com/btarrant/apple_site",
+      "This project demonstrates my ability to design and implement robust automated testing solutions and highlights my commitment to quality assurance in modern web applications.",
+    link: "https://github.com/btarrant/game-hub-test",
   },
 ];
