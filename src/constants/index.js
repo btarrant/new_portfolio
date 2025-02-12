@@ -200,7 +200,7 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Technical Project Manager",
+    title: "QA Software Engineer",
     company_name: "JAQ Media",
     icon: jaq,
     iconBg: "#b1bbbd",
