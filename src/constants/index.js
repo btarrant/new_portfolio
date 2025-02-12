@@ -200,7 +200,7 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "QA Software Engineer",
+    title: "Software QA Engineer",
     company_name: "JAQ Media",
     icon: jaq,
     iconBg: "#b1bbbd",
@@ -228,7 +228,7 @@ export const experiences = [
     ],
   },
   {
-    title: "QA Software Engineer",
+    title: "Software QA Engineer",
     company_name: "QualityLogic Inc",
     icon: qlinc,
     iconBg: "#90fcd6",
