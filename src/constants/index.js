@@ -43,7 +43,8 @@ import {
   wordpress,
   woocommerce,
   elementor,
-  php
+  php,
+  openai
 } from "../assets-2/icons";
 
 export const skills = [
@@ -200,6 +201,11 @@ export const skills = [
   {
     imageUrl: php,
     name: "php",
+    type: "Backend",
+  },
+  {
+    imageUrl: openai,
+    name: "openai",
     type: "Backend",
   }
 ];

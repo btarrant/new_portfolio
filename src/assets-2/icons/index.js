@@ -50,6 +50,7 @@ import wordpress from "./wordpress.svg";
 import woocommerce from "./woocommerce.svg";
 import elementor from "./elementor.svg";
 import php from "./php.svg";
+import openai from "./openai.svg";
 import jaq from "./jaq.svg";
 
 export {
@@ -105,5 +106,6 @@ export {
   woocommerce,
   elementor,
   qlinc,
-  php
+  php,
+  openai
 };
