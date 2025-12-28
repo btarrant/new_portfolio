@@ -199,7 +199,7 @@ export const skills = [
   },
   {
     imageUrl: php,
-    name: "PHP",
+    name: "php",
     type: "Backend",
   }
 ];
