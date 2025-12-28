@@ -49,6 +49,7 @@ import mongodb from "./mongodb.svg";
 import wordpress from "./wordpress.svg";
 import woocommerce from "./woocommerce.svg";
 import elementor from "./elementor.svg";
+import php from "./php.svg";
 import jaq from "./jaq.svg";
 
 export {
