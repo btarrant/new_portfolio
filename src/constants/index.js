@@ -196,7 +196,7 @@ export const skills = [
     imageUrl: elementor,
     name: "Elementor",
     type: "Frontend",
-  }
+  },
   {
     imageUrl: php,
     name: "PHP",
