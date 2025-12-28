@@ -103,5 +103,6 @@ export {
   wordpress,
   woocommerce,
   elementor,
-  qlinc
+  qlinc,
+  php
 };
