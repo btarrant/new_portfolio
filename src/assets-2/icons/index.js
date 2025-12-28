@@ -52,6 +52,7 @@ import elementor from "./elementor.svg";
 import php from "./php.svg";
 import openai from "./openai.svg";
 import jaq from "./jaq.svg";
+import nextjs from "./nextjs.svg";
 
 export {
   aws,
@@ -107,5 +108,6 @@ export {
   elementor,
   qlinc,
   php,
-  openai
+  openai,
+  nextjs
 };

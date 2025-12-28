@@ -44,7 +44,8 @@ import {
   woocommerce,
   elementor,
   php,
-  openai
+  openai,
+  nextjs
 } from "../assets-2/icons";
 
 export const skills = [
@@ -207,6 +208,11 @@ export const skills = [
     imageUrl: openai,
     name: "openai",
     type: "Backend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "nextjs",
+    type: "Frontend",
   }
 ];
 
