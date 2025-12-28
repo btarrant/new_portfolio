@@ -89,7 +89,10 @@ const About = () => {
         <h3 className="subhead-text">My Education</h3>
         <div>
             <p className="py-10">
-            Full Stack Software Engineer Certification, Colorado Technical University (2022)
+            Computer Science, Colorado Technical University (2022)
+            </p>
+            <p className="py-10">
+            Computer Science, University Of New Haven (2009)
             </p>
         </div>
         <h3 className="subhead-text">My Resume</h3>

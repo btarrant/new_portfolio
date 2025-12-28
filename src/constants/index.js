@@ -42,7 +42,8 @@ import {
   mongodb,
   wordpress,
   woocommerce,
-  elementor
+  elementor,
+  php
 } from "../assets-2/icons";
 
 export const skills = [
@@ -195,6 +196,11 @@ export const skills = [
     imageUrl: elementor,
     name: "Elementor",
     type: "Frontend",
+  }
+  {
+    imageUrl: php,
+    name: "PHP",
+    type: "Backend",
   }
 ];
 
