@@ -200,44 +200,46 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Software QA Engineer",
-    company_name: "JAQ Media",
+    title: "Senior Software Engineer (Full-Stack)",
+    company_name: "Growing Portraits",
     icon: jaq,
     iconBg: "#b1bbbd",
     date: "Sept 2024 - Present",
     points: [
-      "Lead QA, testing, and development for an interactive WordPress platform using WooCommerce and third-party integrations.",
-      "Develop and execute manual and automated test strategies using Playwright, Selenium, Jest, Postman, and JUnit, to maintain high software reliability.",
-      "Identify and resolve defects, ensuring seamless user experiences and site scalability.",
-      "Collaborate with cross-functional teams to identify, document, and resolve defects, ensuring seamless user experiences.",
-      "Monitor and troubleshoot technical issues, conducting root cause analysis to enhance site stability and functionality.",
+      "Led full-stack development for a custom WordPress and WooCommerce-based interactive platform, building and maintaining PHP templates, custom plugins, and JavaScript front-end features.",
+      "Implemented and maintained front-end functionality using JavaScript, React, and TypeScript, optimizing performance, responsiveness, and cross-device behavior.",
+      "Designed and integrated complex workflows involving third-party APIs, custom database tables, and platform-specific business logic to support interactive content and user-generated media.",
+      "Owned production stability across multiple environments (production, staging, sandbox), troubleshooting live issues, debugging server-side and client-side defects, and managing safe releases.",
+      "Balanced feature delivery with platform reliability by embedding testing, validation, and monitoring directly into the development lifecycle.",
+      "Collaborated closely with product, design, and engineering stakeholders to translate requirements into technical solutions, unblock development, and guide implementation decisions.",
+      "Improved platform scalability and maintainability through refactoring, documentation, and proactive identification of technical risk."
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Software Engineer (Full-Stack)",
     company_name: "Cisco Systems",
     icon: cisco,
     iconBg: "#d0eef5",
     date: "July 2022 - Apr 2024",
     points: [
-      "Engineered and optimized Cisco’s internal AI chatbot with React + TypeScript, improving response time by 35% and increasing user satisfaction by 25%.",
-      "Spearheaded frontend development of an AI chatbot prototype, securing stakeholder approval within 3 weeks and influencing company-wide AI initiatives.",
-      "Developed reusable UI components, reducing development time for future chatbot iterations by 40%.",
-      "Designed and implemented performance monitoring tools, leading to 20% faster issue resolution.",
-      "Created and updated technical documentation, reducing user onboarding time by 15%."
+      "Engineered and optimized an internal AI-powered chatbot using React and TypeScript, improving response latency and increasing user satisfaction by 25%.",
+      "Led development of a chatbot prototype from concept to delivery, securing stakeholder approval within three weeks and contributing to broader internal AI initiatives.",
+      "Designed and implemented reusable, modular UI components to support rapid iteration, reducing development time for subsequent chatbot enhancements by 40%.",
+      "Built performance monitoring and diagnostics tooling to surface bottlenecks and errors, accelerating issue identification and resolution.",
+      "Authored and maintained technical documentation and usage guides, reducing onboarding time and improving adoption across internal teams."
     ],
   },
   {
-    title: "Software QA Engineer",
-    company_name: "QualityLogic Inc",
+    title: "QA Software Engineer",
+    company_name: "Quality Logic",
     icon: qlinc,
     iconBg: "#90fcd6",
     date: "June 2021 - Aug 2023",
     points: [
-      "Developed and executed automated testing solutions, increasing QA efficiency by 40%.",
-      "Identified and resolved 100+ software defects, reducing post-release bug reports by 30%.",
-      "Develop and execute manual and automated test strategies using Playwright, Selenium, Jest, Postman, and JUnit, to maintain high software reliability.",
-      "Improved collaboration between QA and development teams, leading to a 25% increase in product stability.",
+      "Designed and executed automated performance testing solutions using JMeter, Postman, JUnit, Cucumber, Selenium, PyTest, and Playwright, increasing QA efficiency and test coverage by approximately 40%.",
+      "Led functional, regression, and performance testing efforts across multiple applications using multiple tools and frameworks to ensure stability and reliability prior to release.",
+      "Identified, documented, and partnered with engineering teams to resolve over 100 software defects, reducing post-release defect rates.",
+      "Strengthened collaboration between QA and development teams by improving defect triage workflows and feedback loops, contributing to an improvement in overall product stability.",
     ],
   },
 ];
