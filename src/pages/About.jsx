@@ -3,6 +3,7 @@ import { skills, experiences } from "../constants";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import CTA from "../components/CTA";
+import resumePdf from "../assets-2/Brandon_Tarrant_Software_Engineer_Resume.pdf";
 
 const About = () => {
   return (
@@ -98,7 +99,7 @@ const About = () => {
         <h3 className="subhead-text">My Resume</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
             <p>
-              <a href="https://acrobat.adobe.com/id/urn:aaid:sc:US:fe5b2960-4c60-4a76-8a08-a75f70775ea3" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>
+              <a href={resumePdf} target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>
                 View my resume here!
               </a>
             </p>
