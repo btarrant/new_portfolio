@@ -40,6 +40,7 @@ import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import playwright from "./playwright.svg";
+import hcplogo from "./hcplogo.png";
 import subliyLogo from "./subliy-logo.jpeg";
 import uline from "./uline.svg";
 import cisco from "./cisco.svg";
@@ -54,8 +55,13 @@ import php from "./php.svg";
 import openai from "./openai.svg";
 import jaq from "./jaq.svg";
 
+const growingPortraitsLogo = jaq;
+const ciscoLogo = cisco;
+const qualityLogicLogo = qlinc;
+
 export {
   aws,
+  ciscoLogo,
   css,
   docker,
   express,
@@ -63,6 +69,8 @@ export {
   flask,
   git,
   github,
+  growingPortraitsLogo,
+  hcplogo,
   html,
   illustrator,
   jaq,
@@ -88,6 +96,7 @@ export {
   photoshop,
   postman,
   python,
+  qualityLogicLogo,
   selenium,
   snapgram,
   summiz,
