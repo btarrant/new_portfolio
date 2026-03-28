@@ -35,6 +35,7 @@ import {
   typescript,
   selenium,
   playwright,
+  subliyLogo,
   uline,
   cisco,
   brainwave,
@@ -217,6 +218,23 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+    title: "Founding Software Engineer",
+    company_name: "Subliy",
+    icon: subliyLogo,
+    iconBg: "#ffffff",
+    date: "March 2026 - Present",
+    points: [
+      "Transformed an AI-generated mobile/web application scaffold into a functional MVP by designing backend architecture and implementing core system workflows.",
+      "Built and secured end-to-end authentication and user management systems across mobile, web, and API layers.",
+      "Developed and deployed a production-ready admin dashboard connected to live backend services for operation visibility and control.",
+      "Integrated mobile application flows with backend services, validating functionality through real-device testing and deployment workflows.",
+      "Implemented automated testing and continuous integration pipelines using Jest, Supertest, Playwright, and GitHub Actions.",
+      "Designed event-driven features including notifications, scoring, and user engagement systems with a focus on reliability and performance.",
+      "Identified and resolved critical gaps across authentication, validation, and data handling, improving system reliability and reducing production risk.",
+      "Leading full-stack development across frontend, backend, and infrastructure, collaborating directly with founders to define product scope and drive rapid iteration."
+    ],
+  },
   {
     title: "Senior Software Engineer (Full-Stack)",
     company_name: "Growing Portraits",

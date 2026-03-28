@@ -40,6 +40,7 @@ import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import playwright from "./playwright.svg";
+import subliyLogo from "./subliy-logo.jpeg";
 import uline from "./uline.svg";
 import cisco from "./cisco.svg";
 import qlinc from "./qlinc.svg";
@@ -97,6 +98,7 @@ export {
   soundon,
   soundoff,
   playwright,
+  subliyLogo,
   uline,
   cisco,
   brainwave,
