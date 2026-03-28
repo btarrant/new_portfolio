@@ -1,7 +1,9 @@
 import aws from "./aws.svg";
+import claudeLogo from "./claude-logo.svg";
 import css from "./css.svg";
 import docker from "./docker.svg";
 import express from "./express.svg";
+import expoGoApp from "./expo-go-app.svg";
 import figma from "./figma.svg";
 import flask from "./flask.svg";
 import git from "./git.svg";
@@ -30,6 +32,7 @@ import pricewise from "./pricewise.svg";
 import photoshop from "./photoshop.svg";
 import postman from "./postman.svg";
 import python from "./python.svg";
+import reactNative from "./react-native-1.svg";
 import selenium from "./selenium.svg";
 import snapgram from "./snapgram.svg";
 import summiz from "./summiz.svg";
@@ -62,9 +65,11 @@ const qualityLogicLogo = qlinc;
 export {
   aws,
   ciscoLogo,
+  claudeLogo,
   css,
   docker,
   express,
+  expoGoApp,
   figma,
   flask,
   git,
@@ -98,6 +103,7 @@ export {
   python,
   qualityLogicLogo,
   selenium,
+  reactNative,
   snapgram,
   summiz,
   threads,

@@ -3,10 +3,12 @@ import {
   aws,
   car,
   ciscoLogo,
+  claudeLogo,
   contact,
   css,
   docker,
   estate,
+  expoGoApp,
   figma,
   flask,
   git,
@@ -31,6 +33,7 @@ import {
   qlinc,
   qualityLogicLogo,
   react,
+  reactNative,
   snapgram,
   summiz,
   tailwindcss,
@@ -155,6 +158,11 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl: reactNative,
+    name: "React Native",
+    type: "Frontend",
+  },
+  {
     imageUrl: tailwindcss,
     name: "Tailwind CSS",
     type: "Frontend",
@@ -215,8 +223,18 @@ export const skills = [
     type: "Backend",
   },
   {
+    imageUrl: claudeLogo,
+    name: "Claude.ai",
+    type: "Backend",
+  },
+  {
     imageUrl: nextjs,
     name: "nextjs",
+    type: "Frontend",
+  },
+  {
+    imageUrl: expoGoApp,
+    name: "Expo",
     type: "Frontend",
   }
 ];
